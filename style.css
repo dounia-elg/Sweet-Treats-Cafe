@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap');
+
+:root{
+    --primary-color: #E9BD8C;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header-Hero{
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 1fr;
+    background-image: url(img/image1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 813px;
+}
+
+#header{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
+
+.Logo{
+    max-width: 100px;
+    padding-left: 100px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-family: 'Poppins';
+    padding-left: 100px;
+}
+
+
+.navbar li{
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar li a:hover,
+.navbar li .active{
+    color: rgb(233, 189, 140);
+}
+
+#Hero{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 100px; 
+    max-width: 500px;
+}
+
+.info{
+    text-align: center;
+    color: white;
+}
+
+.info{
+    text-align: left;
+    color: white;
+}
+
+.info h4{
+    font-size: 24px;
+    color: rgb(233, 189, 140);
+    font-family: 'Poppins';
+}
+
+.info h1{
+    font-family: 'Sansita Swashed';
+    font-size: 50px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: none;
+    background-color: #d1453b; 
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.learn-more {
+    background-color: transparent;
+    color: rgb(233, 189, 140);
+}
+
+
+.shop-now:hover {
+    opacity: 0.8;
+}
+
+.learn-more{
+    opacity: 0.7;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+
+/**************Banner Section*****************/
+
+#banner{
+    background-image: url(img/rectangle45.png);
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#banner h3 {
+    color: #933C24;
+    font-size: 48px;
+    font-family: 'Sansita Swashed';
+}
+
+#banner p{
+    color: #5D5D5D;
+    font-size: 24px;
+}
+
+#banner button {
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: none;
+    background-color: #933C24; 
+    color: white;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+#banner button:hover{
+    background-color:#5D5D5D ;
+    color: white;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    padding: 10px;
+}
+
+
+/*****************About Section*********************/
+
+#about{
+    background-image: url(img/fabout.png);
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#about h3 {
+    color: white;
+    font-size: 48px;
+    font-family: 'Sansita Swashed';
+}
+
+#about p{
+    color: #B9B9B9;
+    font-size: 24px;
+}
+
+#about button {
+    padding: 10px 20px;
+    margin-bottom: 200px;
+    border: none;
+    background-color: #933C24; 
+    color: white;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+#about button:hover{
+    background-color:#5D5D5D ;
+    color: white;
+}
+
+#about{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-about{
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.about{
+    margin: 50px;
+}
+
+
+/***************Products Section*************/
+
+.section-pro{
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,minmax(300px,1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid-pro{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.img1{
+    background-image: url(img/fpro1.png);
+}
+
+.img2{
+    background-image: url(img/fpro2.png);
+}
+
+.img3{
+    background-image: url(img/fpro3.png);
+}
+
+.img4{
+    background-image: url(img/fpro4.png);
+}
+
+.img5{
+    background-image: url(img/fpro5.png);
+}
+
+.img6{
+    background-image: url(img/fpro6.png);
+}
+
+.name-pro{
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.name-pro h5{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.name-pro button {
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: none;
+    background-color: #933C24; 
+    color: white;
+    font-size: 24px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.name-pro button:hover{
+    background-color:#5D5D5D ;
+    color: white;
+}
+
+
+/***********************Explore Section***********************/
+
+h2 {
+    color: rgb(10, 10, 10);
+    font-size: 48px;
+    font-family: 'Sansita Swashed';
+}
+
+
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+}
+
+#menu li{
+    margin: 0 20px;
+}
+
+
+#menu li a:hover,
+#menu li .active{
+    color: rgb(187, 115, 34);
+}
+
+
+
+.section-explore{
+    padding: 20px;
+    text-align: center;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,minmax(300px,1fr));
+    gap: 1px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.pic{
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+
+}
+
+
+/*********************Feature Section***********************/
+
+
+.section-feature{
+    padding: 20px;
+    text-align: center;
+}
+
+.feature{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,minmax(300px,1fr));
+    gap: 1px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature-pic{
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+.name-f{
+    font-size: 32px;
+    
+}
+
+
+/******************div**********/
+
+
+.div{
+    margin: 100px; 
+    display: flex;
+    justify-content: center;  
+}
+
+.div1{
+    margin: 50px;
+    margin-top: 25px;
+    color: #5D5D5D;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.div2{
+    margin: 100px;
+    color: #5D5D5D;
+    font-size: 24px;
+}
+
+.space{
+    color: white;
+    margin: 100px;
+}
+
+
+/********************contact**************/
+
+.form {
+    background-image: url(img/form.png); 
+    padding: 20px;
+    border-radius: 40px;
+    width: 90%;
+    max-width: 400px;
+    height: 500px;
+    margin: 0 auto; 
+ 
+  }
+  
+  .form input[type="text"],
+  .form input[type="email"],
+  .form input[type="tel"],
+  .form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 40px;
+    font-size: 14px;
+    background-color: #d6c1c17f;
+    color:rgb(255, 255, 255);
+    height: 50px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    
+  }
+  
+  .form textarea {
+    resize: none; 
+    height: 100px;
+  }
+  
+  .form button {
+    padding: 10px 20px;
+    background-color: #E03030;
+    width: 150px;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    
+  }
+  
+  .form button:hover {
+    background-color: #5D5D5D;
+  }
